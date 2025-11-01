@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! What can I do for you?",
+        "Hey! Nice to see you!",
+        "Greetings! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "I'm leaving"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Thanks for chatting!",
+        "Take care! Come back soon!",
+        "Bye! Don't hesitate to return if you have more questions!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "Glad I could assist you!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "What should I call you?",
+        "Do you have a name?"
+      ],
+      "responses": [
+        "I'm ChatBot, your virtual assistant!",
+        "You can call me ChatBot!",
+        "I'm ChatBot, nice to meet you!",
+        "I'm your friendly ChatBot assistant!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "What can you do?",
+        "How can you help me?",
+        "What are your capabilities?"
+      ],
+      "responses": [
+        "I can chat with you, answer questions, tell jokes, and check weather!",
+        "I'm here to have conversations, provide information, and assist with basic tasks!",
+        "I can help with greetings, tell you about myself, share jokes, and more!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Say something funny"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the scarecrow win an award? He was outstanding in his field!",
+        "Why don't eggs tell jokes? They'd crack each other up!",
+        "What do you call a fake noodle? An impasta!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather?",
+        "Is it raining?",
+        "Weather forecast"
+      ],
+      "responses": [
+        "I'd need to know your location to check the weather!",
+        "You can tell me your city and I'll try to help with weather!",
+        "Weather information is available if you specify a location!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Current time",
+        "What's the time?"
+      ],
+      "responses": [
+        "I don't have access to real-time clock, but you can check your device!",
+        "You can check the time on your computer or phone!",
+        "I'm not connected to a clock service at the moment!"
+      ]
+    }
+  ]
+}
